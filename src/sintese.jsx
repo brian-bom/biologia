@@ -22,13 +22,14 @@ const SinteseProteica = () => {
 
           <div className='texto'>
 
-            <img className='imagem-esquerda' src={DNA} alt="" />
+            
 
             <                         h1 id="1.1">1.1 Conceitos</h1>
 
             <p>
               DNA: contém informações sobre a estrutura primária de proteínas - aminoácidos.
             </p>
+            <img className='imagem-esquerda' src={DNA} alt="" />
 
             <img className='imagem-direita' src={tabela} alt="" />
 

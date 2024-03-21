@@ -71,6 +71,7 @@
 .page{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-content: center;
   gap: 25px;
   margin: 20px;
@@ -134,7 +135,6 @@
   background-color: #ffffff;
   padding: 20px;
   border-radius: 5px;
-  flex-wrap: nowrap;
   box-shadow: 4px 2px 12px 1px rgba(0, 0, 0, 0.2);
 }
 .sumario-titulo{
@@ -198,7 +198,7 @@
 
 .imagem-esquerda{
   display: block;
-  width: 350px;
+  width: 45%;
   margin: 20px;
   float: left;
   border-radius: 10px;
@@ -207,7 +207,7 @@
 
 .imagem-grande{
   display: block;
-  width: 600px;
+  width: 100%;
   align-items: center;
   justify-content: center;
   margin: auto;
@@ -217,7 +217,7 @@
 
 .imagem-direita{
   display: block;
-  width: 350px;
+  width: 45%;
   margin: 30px;
   float: right;
   border-radius: 10px;
