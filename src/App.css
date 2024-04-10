@@ -74,7 +74,7 @@
   flex-wrap: wrap;
   align-content: center;
   gap: 25px;
-  margin: 20px;
+  margin: 0px;
 }
 
 .assuntos{
@@ -222,4 +222,37 @@
   float: right;
   border-radius: 10px;
   margin-bottom: 60px;
+}
+
+.img-invisivel{
+  display: none;
+}
+
+.popup{
+  background-color: #C4C4C4;
+  padding: 10px;
+  border-radius: 8px;
+  position: fixed;
+  top: 15%;
+  left: 5%;
+  width: 400px;
+  max-width: 80%;
+}
+
+.fechar{
+  color: red;
+  border-radius: 100%;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  margin: 0 10px;
+  margin-left: 90%;
+  &:hover{
+    background-color: #ff4f4f;
+  }
+}
+
+.popup-img img{
+  width: 100%;
+  cursor: pointer;
 }

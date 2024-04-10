@@ -4,6 +4,7 @@ import './App.css'
 import logo from "./assets/logo.png"
 import SinteseProteica from './sintese'
 import MultipleDropdownPage from './dropDown'
+import Popup from './popup'
 
 
 function App() {
@@ -18,8 +19,8 @@ function App() {
 
       </div>
       <MultipleDropdownPage/>
-      
 
+      <Popup/>
       <div  className='page'>
 
         <div className='sumario'>
