@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import ad from './assets/ad.jpg'
+import ad from './assets/ad2.jpg'
 import x from './assets/x.png'
 import gambiarra from './assets/gambiarra.png'
 
